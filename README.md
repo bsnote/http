@@ -1,7 +1,5 @@
 # http - a [Tarantool][] rock for an HTTP client and a server
 
-[![Build Status](https://travis-ci.org/tarantool/http.png?branch=master)](https://travis-ci.org/tarantool/http)
-
 ## Getting Started
 
 ### Prerequisites
@@ -13,8 +11,8 @@
 Clone repository and then build it using CMake:
 
 ``` bash
-git clone https://github.com/tarantool/http.git
-cd http && cmake . -DCMAKE_BUILD_TYPE=RelWithDebugInfo
+git clone https://github.com/bsnote/tarantool-http.git
+cd tarantool-http && cmake . -DCMAKE_BUILD_TYPE=RelWithDebugInfo
 make
 make install
 ```
@@ -22,7 +20,7 @@ make install
 You can also use LuaRocks:
 
 ``` bash
-luarocks install https://raw.githubusercontent.com/tarantool/http/master/http-scm-1.rockspec --local
+luarocks install https://raw.githubusercontent.com/bsnote/tarantool-http/master/http-scm-1.rockspec --local
 ```
 
 See [tarantool/rocks][TarantoolRocks] for LuaRocks configuration details.
@@ -440,4 +438,4 @@ For additional examples, see [documentation][Documentation] and
 
 [Tarantool]: http://github.com/tarantool/tarantool
 [Documentation]: https://github.com/tarantool/http/wiki
-[Tests]: https://github.com/tarantool/http/tree/master/test
+[Tests]: https://github.com/bsnote/tarantool-http/tree/master/test
